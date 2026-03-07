@@ -23,7 +23,7 @@ jobs:
         input: |-
           2 1 2
           2 3 4
-        expected-output: ''
+        expected-output: "\n"
         comparison-method: exact
         timeout: 10
     - name: test3
