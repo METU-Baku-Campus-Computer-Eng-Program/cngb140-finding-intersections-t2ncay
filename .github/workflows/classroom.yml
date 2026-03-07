@@ -21,9 +21,9 @@ jobs:
         setup-command: gcc student_main.c -o solution
         command: "./solution"
         input: |-
-          2 1 2
-          2 3 4
-        expected-output: ''
+          4 1 2 3 4
+          2 2 3
+        expected-output: '2 3 '
         comparison-method: exact
         timeout: 10
     - name: test3
