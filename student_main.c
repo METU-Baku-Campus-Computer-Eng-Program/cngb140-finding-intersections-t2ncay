@@ -32,7 +32,7 @@ int main() {
                     int exists = 0;
                     
                     for(k = 0; k < count; k++){
-                        if(intersection[k] = set1[i]){
+                        if(intersection[k] == set1[i]){
                             exists = 1;
                             break;
                         }
